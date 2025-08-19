@@ -52,6 +52,7 @@ Make sure you have the following installed:
 
 * Python (3.9+)
 * Fast API
+* Uvicorn
 * Google Cloud SDK (`gcloud`)
 * Gemini API key (Vertex AI access required)
 
