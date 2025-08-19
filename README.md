@@ -1,9 +1,9 @@
-#🍅 KissanKonnect – Nutrigenie Recipe Suggestion API
+### 🍅 KissanKonnect – Nutrigenie Recipe Suggestion API
 
 KissanKonnect (Nutrigenie) is an AI-powered recipe suggestion and nutrition analysis system built on Google’s Gemini AI. It leverages Google’s Gemini AI for natural language recipe generation and ingredient analysis, built on a scalable FastAPI backend and integrated with a modern React-based frontend. It intelligently processes both text and image inputs to identify ingredients, analyze nutritional values, and generate personalized recipes. The backend is powered by FastAPI, while a modern React-based frontend ensures an interactive user experience.
 This project is designed for seamless cooking assistance and to demonstrate how AI can bridge everyday cooking with smart, nutrition-driven decisions.
 
-✨ **Key Features**
+### ✨ **Key Features**
 
 * **Task 1 – Ingredient & Nutrition Analysis**
   * Input: Image or text (list of ingredients).
@@ -24,15 +24,15 @@ This project is designed for seamless cooking assistance and to demonstrate how 
 * **Frontend**: React, JavaScript, Axios, Tailwind CSS
 * * **Database / State Mgmt.**: In-memory (future-ready for SQL integration)
 
-🚀 **Usage Workflow**
+### 🚀 **Usage Workflow**
 
-### 🔹 Task 1 – Ingredient & Nutrition Analysis
+## 🔹 Task 1 – Ingredient & Nutrition Analysis
 
 Identify Ingredients & Nutrition
 * Provide input as text list or upload an image of ingredients.
 * Gemini analyzes the input to recognize ingredients and return their nutritional values.
 
-### 🔹 Task 2 – Recipe Suggestion & Gap Analysis
+## 🔹 Task 2 – Recipe Suggestion & Gap Analysis
 
 Get Recipe Suggestions
 * Use `/suggestions/` endpoint or UI input box.
@@ -47,7 +47,7 @@ Get Missing Items
 * API highlights unavailable ingredients.
 * Suggests items that need to be purchased to complete the recipe.
 
-📋 **Prerequisites**
+### 📋 **Prerequisites**
 Make sure you have the following installed:
 
 * Python (3.9+)
@@ -55,9 +55,9 @@ Make sure you have the following installed:
 * Google Cloud SDK (`gcloud`)
 * Gemini API key (Vertex AI access required)
 
-⚙️ **Configuration & Setup**
+### ⚙️ **Configuration & Setup**
 
-### 1. Google Cloud Setup
+## 1. Google Cloud Setup
 * Create a **Google Cloud Project** and enable billing.
 * Enable these APIs:
 
@@ -73,7 +73,7 @@ Make sure you have the following installed:
     
 * Generate and download the service account JSON key.
 
-### 2. Backend Setup
+## 2. Backend Setup
 
 ```bash
 git clone https://github.com/your-username/kissankonnect-nutrigenie.git
@@ -97,7 +97,7 @@ uvicorn main:app --reload
 
 Backend and Frontend runs at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-✅ **Example API Calls**
+### ✅ **Example API Calls**
 
 * **Get Suggestions**
 
